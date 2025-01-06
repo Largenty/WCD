@@ -1,0 +1,281 @@
+:root {
+  --type-steel-bg: #a8a8c0; /* Steel */
+  --type-steel-text: #000000;
+
+  --type-fighting-bg: #c03028; /* Fighting */
+  --type-fighting-text: #ffffff;
+
+  --type-dragon-bg: #7038f8; /* Dragon */
+  --type-dragon-text: #ffffff;
+
+  --type-water-bg: #6890f0; /* Water */
+  --type-water-text: #ffffff;
+
+  --type-electric-bg: #f8d030; /* Electric */
+  --type-electric-text: #000000;
+
+  --type-fairy-bg: #ee99ac; /* Fairy */
+  --type-fairy-text: #000000;
+
+  --type-fire-bg: #f08030; /* Fire */
+  --type-fire-text: #000000;
+
+  --type-ice-bg: #98d8d8; /* Ice */
+  --type-ice-text: #000000;
+
+  --type-bug-bg: #a8b820; /* Bug */
+  --type-bug-text: #000000;
+
+  --type-normal-bg: #a8a878; /* Normal */
+  --type-normal-text: #000000;
+
+  --type-grass-bg: #78c850; /* Grass */
+  --type-grass-text: #000000;
+
+  --type-poison-bg: #a040a0; /* Poison */
+  --type-poison-text: #ffffff;
+
+  --type-psychic-bg: #f85888; /* Psychic */
+  --type-psychic-text: #ffffff;
+
+  --type-rock-bg: #b8a038; /* Rock */
+  --type-rock-text: #000000;
+
+  --type-ground-bg: #e0c068; /* Ground */
+  --type-ground-text: #000000;
+
+  --type-ghost-bg: #705898; /* Ghost */
+  --type-ghost-text: #ffffff;
+
+  --type-dark-bg: #705848; /* Dark */
+  --type-dark-text: #ffffff;
+
+  --type-flying-bg: #a890f0; /* Flying */
+  --type-flying-text: #000000;
+
+  --type-stellar-bg: #e5e5ff; /* Stellar */
+  --type-stellar-text: #000000;
+
+  --primary: #fcfcfc;
+  --secondary: rgb(255, 30, 0);
+  --tertiary: #242424;
+}
+
+/* Styles pour les badges */
+.badge {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0.3em 0;
+  border-radius: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Styles spécifiques pour chaque type */
+.badge-steel {
+  background-color: var(--type-steel-bg);
+  color: var(--type-steel-text);
+}
+
+.badge-fighting {
+  background-color: var(--type-fighting-bg);
+  color: var(--type-fighting-text);
+}
+
+.badge-dragon {
+  background-color: var(--type-dragon-bg);
+  color: var(--type-dragon-text);
+}
+
+.badge-water {
+  background-color: var(--type-water-bg);
+  color: var(--type-water-text);
+}
+
+.badge-electric {
+  background-color: var(--type-electric-bg);
+  color: var(--type-electric-text);
+}
+
+.badge-fairy {
+  background-color: var(--type-fairy-bg);
+  color: var(--type-fairy-text);
+}
+
+.badge-fire {
+  background-color: var(--type-fire-bg);
+  color: var(--type-fire-text);
+}
+
+.badge-ice {
+  background-color: var(--type-ice-bg);
+  color: var(--type-ice-text);
+}
+
+.badge-bug {
+  background-color: var(--type-bug-bg);
+  color: var(--type-bug-text);
+}
+
+.badge-normal {
+  background-color: var(--type-normal-bg);
+  color: var(--type-normal-text);
+}
+
+.badge-grass {
+  background-color: var(--type-grass-bg);
+  color: var(--type-grass-text);
+}
+
+.badge-poison {
+  background-color: var(--type-poison-bg);
+  color: var(--type-poison-text);
+}
+
+.badge-psychic {
+  background-color: var(--type-psychic-bg);
+  color: var(--type-psychic-text);
+}
+
+.badge-rock {
+  background-color: var(--type-rock-bg);
+  color: var(--type-rock-text);
+}
+
+.badge-ground {
+  background-color: var(--type-ground-bg);
+  color: var(--type-ground-text);
+}
+
+.badge-ghost {
+  background-color: var(--type-ghost-bg);
+  color: var(--type-ghost-text);
+}
+
+.badge-dark {
+  background-color: var(--type-dark-bg);
+  color: var(--type-dark-text);
+}
+
+.badge-flying {
+  background-color: var(--type-flying-bg);
+  color: var(--type-flying-text);
+}
+
+.badge-stellar {
+  background-color: var(--type-stellar-bg);
+  color: var(--type-stellar-text);
+}
+
+body {
+  max-width: 1920px;
+  margin: 0;
+  padding: 0;
+  margin: auto;
+  background-color: var(--secondary);
+  /* background-color: rgb(253, 249, 243); */
+  font-family: "Press Start 2P", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--primary);
+  font-size: 1rem;
+}
+
+header,
+main,
+footer {
+  max-width: 1920px;
+  margin: 2rem 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+
+
+.pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pokemon-card {
+  padding: 1rem 2rem;
+  border: 0.5rem solid var(--tertiary);
+    max-width: 500px;
+  background-color: var(--primary);
+  color: var(--tertiary);
+  border-radius: 2rem;
+  position: relative;
+}
+
+.pokemon-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0;
+  & > h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 2rem 0 0.3rem 0;
+  }
+  & > p {
+    font-style: italic;
+  }
+}
+
+.pokemon-body {
+  & > .badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    margin: 0 0 0 0.3rem
+  }
+  & > .badge > p {
+
+    margin: 0 0.3rem
+  }
+}
+
+.pokemon-caracteristique {
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  & strong {
+    font-weight: bold;
+  }
+  & li {
+    padding: 0.2rem;
+  }
+}
+
+
+.pokemon-description {
+  width: initial;
+}
+
+.abilities {
+    max-width: 350px;
+}
